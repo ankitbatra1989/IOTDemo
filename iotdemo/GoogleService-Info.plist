@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>800734316566-9624cuppk20qfrh27jjitl59m9hmcpj1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.800734316566-9624cuppk20qfrh27jjitl59m9hmcpj1</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>800734316566-1q7ds3hn3c988i1dk97bfajp6b5qe3q1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFAgXsSijBkN9e22GQbL6cHLRWTdiSaGc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>800734316566</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bluezeal.iotdemo</string>
+	<key>PROJECT_ID</key>
+	<string>iotdevices-7b921</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iotdevices-7b921.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:800734316566:ios:0890f0a0c74898f5e68d37</string>
+	<key>DATABASE_URL</key>
+	<string>https://iotdevices-7b921.firebaseio.com</string>
+</dict>
+</plist>
