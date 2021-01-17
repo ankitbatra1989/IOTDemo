@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         //
         ref = Database.database().reference()
         board1Ref = ref.child("Device1").child("LAPROOM").child("Board1")
-        _ =  board1Ref?.observeSingleEvent(of: .value, with: { [weak self] (snapshot) in
+        _ =  board1Ref?.observe(.value, with: { [weak self] (snapshot) in
             self?.board1ValuesDict = snapshot.value as? [String : AnyObject] ?? [:]
             //
             let button1Status = self?.board1ValuesDict["Button1"] as! Int
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
         })
         
         board2Ref = ref.child("Device2").child("LAPROOM").child("Board1")
-        _ =  board2Ref?.observeSingleEvent(of: .value, with: { [weak self] (snapshot) in
+        _ =  board2Ref?.observe(.value, with: { [weak self] (snapshot) in
             self?.board2ValuesDict = snapshot.value as? [String : AnyObject] ?? [:]
             //
             let button1Status = self?.board2ValuesDict["Button1"] as! Int
